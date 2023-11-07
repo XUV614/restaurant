@@ -1,0 +1,59 @@
+/* Middle.css */
+
+.Middle {
+    margin: 20px;
+  }
+  
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product > div {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 200px; /* Set a default width for the product items */
+  }
+
+  .product>div:hover{
+    background-color: #ccc;
+    width:250px;
+  }
+  
+  .product h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product img {
+    width: 175px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .product button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .product > div {
+      width: 100%; /* Make the product items take full width on smaller screens */
+    }
+  }
+  

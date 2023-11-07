@@ -1,0 +1,11 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.signOut{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}

@@ -1,0 +1,49 @@
+{
+    "Menu": [
+      {
+        "id": 1,
+        "name": "Butter Paneer",
+        "price": "140"
+      },
+      {
+        "name": "Pav Bhaji",
+        "price": "110",
+        "id": 2
+      },
+      {
+        "name": "idli",
+        "price": "75",
+        "id": 3
+      },
+      {
+        "name": "Masala Dosa",
+        "price": "80",
+        "id": 4
+      },
+      {
+        "name": "Veg Kholapuri",
+        "price": "175",
+        "id": 5
+      },
+      {
+        "name": "jeera rice",
+        "price": "115",
+        "id": 6
+      },
+      {
+        "name": "Tandoori roti",
+        "price": "30",
+        "id": 7
+      },
+      {
+        "name": "Plain roti",
+        "price": "15",
+        "id": 8
+      },
+      {
+        "name": "Dal fry",
+        "price": "125",
+        "id": 9
+      }
+    ]
+  }

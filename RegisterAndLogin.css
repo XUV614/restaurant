@@ -1,0 +1,73 @@
+/* RegisterAndLogin.css */
+
+.App {
+    height: 100vh;
+    background-color:rgba(107, 107, 107, 0.62);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .SignUp,
+  .SignIn {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .SignUp:hover,
+  .SignIn:hover {
+    background-color: #0056b3;
+  }
+  
+  .head1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  .email,
+  .password {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .forgot {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  
